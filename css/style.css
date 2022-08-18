@@ -338,6 +338,8 @@ ul
 }
 #send_msg::after{
     content: "Send Message";
+    background-color: var(--skin-color);
+    color: #ffffff;
 }
 #resume{
     width: 100px;
