@@ -282,7 +282,7 @@ ul
    
 } */
 
-.btn{
+.btn,#send_msg{
     height: 50px;
     width: 150px;
     position: absolute;
@@ -293,7 +293,7 @@ ul
     border-radius: 5px;
     overflow: hidden;
 }
-.btn:before{
+.btn:before,#send_msg:before{
     content: "";
     height: 100%;
     width: 150%;
@@ -319,7 +319,7 @@ ul
         transform: rotate(-360deg);
     }
 }
-.btn:after{
+.btn:after,#send_msg:after{
     content: "Hire me";
     position: absolute;
     background-color: var(--skin-color);
