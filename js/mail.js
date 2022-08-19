@@ -5,7 +5,7 @@ function success() {
   setTimeout(() => {
     thank.style.display = "none"
   },2000)
-}z
+}
 
 function failure() {
   let fail = document.querySelector(".failed-msgpop")
