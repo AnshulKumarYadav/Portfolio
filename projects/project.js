@@ -91,14 +91,14 @@ const Projects = [
         ],
         project_link : "https://redbusapp.herokuapp.com/swagger-ui/",
         project_type : "Indivisual Project",
-        category : ["all", "html", "other"]
+        category : ["all", "mern", "other"]
     },
 
     {
         name : "Online Shopping App: Backend Project",
         about : "Nykaa is a beauty retail companythat sells cosmetic commodities online. In this project, I was leading my team and majorly worked on Home page, Product page, Signin functionality, Cart and Wishlist page.",
         img : "../images/shopping.jpg",
-        gitrepo : "https://github.com/AnshulKumarYadav/weatherApp",
+        gitrepo : "https://github.com/AnshulKumarYadav/Online-Shopping-App-",
         video : "",
         tech_stack : "JAVA | SpringBoot | SpringData-Jpa | Hibernate | MySQL | Swagger UI",
         tech_stackicons : [
@@ -109,9 +109,9 @@ const Projects = [
             `<img src="https://img.shields.io/static/v1?label=&message=MySql&color=00C2FB&logo=MySQL&logoColor=FFFFFF"/>`,
 
         ],
-        project_link : "https://anshulkumaryadav.github.io/weatherApp/",
-        project_type : "Indivisual Project",
-        category : ["all", "html", "other"]
+        project_link : "http://onlineshoppingapp-env.eba-8sfgqmyr.us-west-2.elasticbeanstalk.com/swagger-ui/",
+        project_type : "Group Project",
+        category : ["all", "mern", "other"]
     },
   
     
