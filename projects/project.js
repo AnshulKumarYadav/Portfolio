@@ -7,9 +7,9 @@ const Projects = [
         gitrepo : "https://github.com/AnshulKumarYadav/bobbibrown",
         tech_stack : "HTML | CSS | JAVASCRIPT",
         tech_stackicons : [
-            `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-            `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-            `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+            `<img src="https://img.shields.io/static/v1?label=&message=HTML&color=F37878&logo=html5&logoColor=FFFFFF" />`,
+            `<img src="https://img.shields.io/static/v1?label=&message=css&color=52D4FA&logo=css3&logoColor=FFFFFF"/>`,
+            `<img src="https://img.shields.io/static/v1?label=&message=javascript&color=FBF000&logo=javascript&logoColor=000000"/>`,
             
         ],
         project_link : "https://anshulkumaryadav.github.io/BobbiBrown/",
@@ -25,10 +25,10 @@ const Projects = [
         gitrepo : "https://github.com/AnshulKumarYadav/youtube",
         tech_stack : "HTML | CSS | JAVASCRIPT | API's",
         tech_stackicons : [
-            `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-            `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-            `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-            `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
+            `<img src="https://img.shields.io/static/v1?label=&message=HTML&color=F37878&logo=html5&logoColor=FFFFFF" />`,
+            `<img src="https://img.shields.io/static/v1?label=&message=css&color=52D4FA&logo=css3&logoColor=FFFFFF"/>`,
+            `<img src="https://img.shields.io/static/v1?label=&message=javascript&color=FBF000&logo=javascript&logoColor=000000"/>`,
+            `<img src="https://img.icons8.com/nolan/44/api-settings.png" width="38px"/>`
             
         ],
         project_link : "https://anshulkumaryadav.github.io/youtube/",
@@ -43,10 +43,10 @@ const Projects = [
         gitrepo : "https://github.com/AnshulKumarYadav/foodyShop",
         tech_stack : "HTML | CSS | JAVASCRIPT | API's",
         tech_stackicons : [
-            `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-            `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-            `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-            `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
+            `<img src="https://img.shields.io/static/v1?label=&message=HTML&color=F37878&logo=html5&logoColor=FFFFFF" />`,
+            `<img src="https://img.shields.io/static/v1?label=&message=css&color=52D4FA&logo=css3&logoColor=FFFFFF"/>`,
+            `<img src="https://img.shields.io/static/v1?label=&message=javascript&color=FBF000&logo=javascript&logoColor=000000"/>`,
+            `<img src="https://img.icons8.com/nolan/30/api-settings.png" width="38px"/>`
             
         ],
         project_link : "https://anshulkumaryadav.github.io/foodyShop/",
@@ -60,11 +60,53 @@ const Projects = [
         img : "../images/wheather.png",
         gitrepo : "https://github.com/AnshulKumarYadav/weatherApp",
         video : "",
-        tech_stack : " HTML | CSS | JavaScript |",
+        tech_stack : " HTML | CSS | JavaScript | API",
         tech_stackicons : [
-        `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-        `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-        `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+            `<img src="https://img.shields.io/static/v1?label=&message=HTML&color=F37878&logo=html5&logoColor=FFFFFF" />`,
+            `<img src="https://img.shields.io/static/v1?label=&message=css&color=52D4FA&logo=css3&logoColor=FFFFFF"/>`,
+            `<img src="https://img.shields.io/static/v1?label=&message=javascript&color=FBF000&logo=javascript&logoColor=000000"/>`,
+        `<img src="https://img.icons8.com/nolan/30/api-settings.png" width="38px"/>`
+
+        ],
+        project_link : "https://anshulkumaryadav.github.io/weatherApp/",
+        project_type : "Indivisual Project",
+        category : ["all", "html", "other"]
+    },
+
+    {
+        name : "RedBus : Backend Project",
+        about : "Redbus is a bus ticket booking app where we book a ticket with a particular sourct station to destination station.",
+        img : "../images/redbus.jpg",
+        gitrepo : "https://github.com/AnshulKumarYadav/RedBus",
+        video : "",
+        tech_stack : "JAVA | SpringBoot | SpringData-Jpa | Hibernate | MySQL | Swagger UI",
+        tech_stackicons : [
+        `<img src="" />`,
+        `<img src="https://img.shields.io/static/v1?label=&message=SpringData-Jpa&color=019733&logo=spring&logoColor=FFFFFF"/>`,
+        `<img src="https://img.shields.io/static/v1?label=&message=SpringBoot&color=019733&logo=springboot&logoColor=FFFFFF"/>`,
+        `<img src="https://img.shields.io/static/v1?label=&message=Hibernate&color=430098&logo=hibernate&logoColor=FFFFFF"/>`,
+        `<img src="https://img.shields.io/static/v1?label=&message=MySql&color=00C2FB&logo=MySQL&logoColor=FFFFFF"/>`,
+        
+
+        ],
+        project_link : "https://redbusapp.herokuapp.com/swagger-ui/",
+        project_type : "Indivisual Project",
+        category : ["all", "html", "other"]
+    },
+
+    {
+        name : "Online Shopping App: Backend Project",
+        about : "Nykaa is a beauty retail companythat sells cosmetic commodities online. In this project, I was leading my team and majorly worked on Home page, Product page, Signin functionality, Cart and Wishlist page.",
+        img : "../images/shopping.jpg",
+        gitrepo : "https://github.com/AnshulKumarYadav/weatherApp",
+        video : "",
+        tech_stack : "JAVA | SpringBoot | SpringData-Jpa | Hibernate | MySQL | Swagger UI",
+        tech_stackicons : [
+            `<img src="https://img.shields.io/static/v1?label=&message=Java&color=007396&logo=java&logoColor=FFFFFF" />`,
+            `<img src="https://img.shields.io/static/v1?label=&message=SpringData-Jpa&color=019733&logo=spring&logoColor=FFFFFF"/>`,
+            `<img src="https://img.shields.io/static/v1?label=&message=SpringBoot&color=019733&logo=springboot&logoColor=FFFFFF"/>`,
+            `<img src="https://img.shields.io/static/v1?label=&message=Hibernate&color=430098&logo=hibernate&logoColor=FFFFFF"/>`,
+            `<img src="https://img.shields.io/static/v1?label=&message=MySql&color=00C2FB&logo=MySQL&logoColor=FFFFFF"/>`,
 
         ],
         project_link : "https://anshulkumaryadav.github.io/weatherApp/",
@@ -138,7 +180,7 @@ Projects.reverse().forEach(pro => {
       <a href=${pro.gitrepo} target="_blank" title="GitHub Repository" class="github-repo"><i class="fab fa-github"></i></a>
       </div>
       <div class="project_tech_box">
-      <span class="TechStacks__text">TechStacks: </span> ${pro.tech_stack}
+      <span class="TechStacks__text">TechStacks: </span> ${pro.tech_stackicons} 
       </div>
       
     </div>
