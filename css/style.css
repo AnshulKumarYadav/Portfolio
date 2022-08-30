@@ -1194,6 +1194,10 @@ h3.my-profession
     
 }
 
+.btn{
+    margin-left: 10%;
+}
+
 }
 
 
@@ -1272,6 +1276,8 @@ h3.my-profession
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
 }
+
+
 }
 
 @media (max-width:565px) {
@@ -1279,6 +1285,7 @@ h3.my-profession
     h3.hello span {
         font-size: 32px;
     }
+
 }
 
 
