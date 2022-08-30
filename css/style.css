@@ -1084,6 +1084,28 @@ h3.my-profession
     height: 50px;
     padding: 0 50px;
 }
+#footer{
+    text-align: center;
+    color: #fff;
+    background-color: var(--skin-color);
+    min-height: 30vh;
+    display: block;
+    padding: 0 30px;
+    opacity: 1;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    left: -0px;
+    right: 0px;
+    transition: all 0.3s ease;
+    padding-top: 20px;
+}
+#footer h2{
+    font-family: cursive,Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
 @media (max-width:1199px)
 {
     .section .container

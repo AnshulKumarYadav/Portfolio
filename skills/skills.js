@@ -20,13 +20,13 @@ const skills = [
         category : ["all", "frontend"]
     },
     {
-        name: "Postman",
-        icon_url : "../images/postman.png",
+        name: "Java",
+        icon_url : "../images/java.png",
         category : ["all", "backend"]
     },
     {
-        name: "Java",
-        icon_url : "../images/java.png",
+        name: "Spring Framework",
+        icon_url : "../images/spring.png",
         category : ["all", "backend"]
     },
     {
@@ -40,9 +40,29 @@ const skills = [
         category : ["all", "backend"]
     },
     {
+        name: "Hibernate",
+        icon_url : "../images/hibernate.png",
+        category : ["all", "backend"]
+    },
+     {
+        name: "Postman",
+        icon_url : "../images/postman.png",
+        category : ["all", "backend"]
+    },
+    {
         name: "AWS",
         icon_url : "../images/aws.png",
-        category : ["all", "backend"]
+        category : ["all"]
+    },
+    {
+        name: "Heroku",
+        icon_url : "../images/heroku.png",
+        category : ["all"]
+    },
+    {
+        name: "Vercel",
+        icon_url : "../images/vercel.png",
+        category : ["all"]
     }
 ]
 
