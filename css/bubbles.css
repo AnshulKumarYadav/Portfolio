@@ -1,4 +1,11 @@
-
+  .canvas{
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    bottom: 150px;
+  }
   .bubble {
     display: block;
     border-radius: 100%;
