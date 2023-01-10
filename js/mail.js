@@ -1,25 +1,27 @@
+document.getElementById("send_msg").addEventListener("click",SendMSG);
+
 function SendMSG(e) {
   e.preventDefault()
-    let name_txt = document.querySelector("#name").value
-    let email_txt = document.querySelector("#email").value
-    let subject_txt = document.querySelector("#subject").value
-    let message_txt = document.querySelector("#message").value
-    // let body = "Name:" + nam_txt.value + ",  " + "email:" + email_txt.value + ",  " + "subject:" + subject_txt.value +  ",  "+ "Message : " + message_txt.value
+    let name_txt = document.querySelector("#name");
+    let email_txt = document.querySelector("#email");
+    let subject_txt = document.querySelector("#subject");
+    let message_txt = document.querySelector("#message");
+    let body = "Name:" + name_txt.value + ",  " + "email:" + email_txt.value + ",  " + "subject:" + subject_txt.value +  ",  "+ "Message : " + message_txt.value
 
-// let temp = {
-//   from_name : nam_txt.value,
-//   to_name : "Anshul Kumar Yadav",
-//   message : body
-// }
+let temp = {
+  from_name : name_txt.value,
+  to_name : "Anshul Kumar Yadav",
+  message : body
+}
 
-// emailjs.send('service_vgu2y6b', 'template_ce5qexv', temp)
-// .then((res) => {
-//   if(res.status == 200) {
-//     success()
-//   }else {
-//     failure()
-//   }
-// })
+emailjs.send('service_3fqa39v', 'template_ce5qexv', temp)
+.then((res) => {
+  if(res.status == 200) {
+    success()
+  }else {
+    failure()
+  }
+})
 
 
 // nam_txt.value = ""
@@ -27,28 +29,28 @@ function SendMSG(e) {
 // subject_txt.value = ""
 // message_txt.value = ""
 
-fetch('https://myporfolio-api.herokuapp.com/visiter', {
-  method: 'POST',
-  body: JSON.stringify({
-    name:name_txt,
-    email:email_txt,
-    subject:subject_txt,
-    message: message_txt,
-  }),
-  headers: {
-    'Content-type': 'application/json; charset=UTF-8',
-  }
-  })
-  .then(function(response){ 
-  return response.json()})
-  .then(function(data)
-  {
-    console.log(data);
-    success();
-}).catch(error =>{
-  console.error('Error:', error);
-  failure();
-}); 
+// fetch('https://myporfolio-api.herokuapp.com/visiter', {
+//   method: 'POST',
+//   body: JSON.stringify({
+//     name:name_txt,
+//     email:email_txt,
+//     subject:subject_txt,
+//     message: message_txt,
+//   }),
+//   headers: {
+//     'Content-type': 'application/json; charset=UTF-8',
+//   }
+//   })
+//   .then(function(response){ 
+//   return response.json()})
+//   .then(function(data)
+//   {
+//     console.log(data);
+//     success();
+// }).catch(error =>{
+//   console.error('Error:', error);
+//   failure();
+// }); 
 
 
 }
